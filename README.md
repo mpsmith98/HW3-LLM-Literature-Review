@@ -47,7 +47,9 @@ The invention of optimizing compilers like GCC (GNU Compiler Collection) in 1987
 3. **Modern Era (1990s-2000s)**
 With the rise of object-oriented programming (e.g., C++ and Java), compilers needed to handle more abstract constructs like inheritance, polymorphism, and garbage collection. The JIT compilation approach, introduced in the 1990s with Java, marked a significant shift, where the compilation was deferred until runtime to improve performance.
 The emergence of LLVM (Low-Level Virtual Machine) in 2003 revolutionized compiler design. LLVM introduced a flexible and modular compilation infrastructure, making it easier to support multiple programming languages and target different hardware architectures.
-Recent Developments in Compiler Design
+
+
+### Recent Developments in Compiler Design
 Several recent advancements in the field of compiler design focus on leveraging modern hardware architectures, improving performance, and enhancing developer productivity:
 
 1. **Machine Learning-Assisted Compilation**
@@ -68,6 +70,7 @@ The field of compilers continues to evolve in tandem with advancements in hardwa
 * **Cross-Platform Compilation:** Modern compilers are focusing on making it easier to write code once and have it run efficiently across multiple platforms, from cloud servers to mobile devices and web browsers.
 * **Security-Oriented Compilation:** Compilers are increasingly designed to enforce security features, like memory safety (Rust), pointer integrity, and even encrypted computation.
 * **Quantum Compilers:** As quantum computing gains traction, new compilers are being developed to translate high-level quantum algorithms into quantum machine code that can be executed on quantum computers.
+
 
 ### Notable Researchers
 1. **John Backus**
@@ -95,6 +98,7 @@ Influence: LLVM revolutionized compiler construction by providing a highly modul
 Contributions: This team created the Go programming language, which includes innovations in concurrency and simplicity in its compiler design.
 Influence: The Go compiler's ability to handle concurrent programs efficiently and its minimalist design have made it influential in modern cloud and systems programming.
 
+
 ### Foundational Literature in Compiler Design
 1. **"Compilers: Principles, Techniques, and Tools" by Aho, Sethi, and Ullman (The Dragon Book)**
 Summary: This is the seminal textbook on compiler construction, covering lexical analysis, syntax analysis, semantic analysis, optimization, and code generation. The Dragon Book has been used to teach generations of students the theoretical underpinnings and practical aspects of compiler design.
@@ -117,6 +121,7 @@ Influence: While not a compiler textbook per se, this book provides deep insight
 7. **"Engineering a Compiler" by Keith Cooper and Linda Torczon**
 Summary: This book provides a practical approach to building compilers, emphasizing the engineering trade-offs required to build robust, efficient compilers in real-world systems.
 Influence: The text is highly regarded for its emphasis on optimization and real-world compiler issues like portability and performance.
+
 
 ### Recent and Emerging Literature
 1. **"The LLVM Compiler Infrastructure" by Chris Lattner and Vikram Adve**
